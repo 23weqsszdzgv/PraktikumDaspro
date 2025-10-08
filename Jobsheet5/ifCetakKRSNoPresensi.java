@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class ifCetakKRSNoPresensi {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("--- Cek Bilangan Genap atau Ganjil (Ternary Operator) ---");
-        System.out.print("Masukkan angka: ");
-        int angka = input.nextInt();
+        System.out.println("--- Cetak KRS ---");
+        System.out.print("Apakah UKT sudah lunas? (true/false): ");
+        boolean uktLunas = input.nextBoolean();
 
-        // Menggunakan Ternary Operator
-        String hasil = (angka % 2 == 0) ? "Genap" : "Ganjil";
-        System.out.println("Bilangan " + angka + " adalah " + hasil);
+        // Modifikasi IF-ELSE menjadi Ternary Operator
+        String hasil = (uktLunas) ? "KRS berhasil dicetak." : "KRS tidak dapat dicetak karena UKT belum lunas.";
+        System.out.println(hasil);
 
         input.close();
     }
