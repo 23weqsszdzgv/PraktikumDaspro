@@ -60,6 +60,8 @@ End
 
 
 
+![Flowchart Sistem Perpustakaan Kampus](https://github.com/username/repo-name/blob/main/7f314ea0-8ebb-4cf5-ac85-92ae70ceaffe.png?raw=true)
+
 
 
 
